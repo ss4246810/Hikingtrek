@@ -1,0 +1,744 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">tap_testimonial</custom-type>
+        <custom-type translate="1">tap_team</custom-type>        
+    </custom-types>    
+    <admin-texts>
+        <key name="theme_mods_travel-agency-pro">
+            <key name="phone_label" />
+            <key name="phone" />
+            <key name="email" />
+            <key name="time" />
+            <key name="banner_title" />
+            <key name="banner_subtitle" />
+            <key name="slider_custom">
+                <key name="0">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="1">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="2">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="3">
+                     <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="4">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="5">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="6">
+                   <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="7">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="8">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="9">
+                     <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="10">
+                     <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="11">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="12">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="13">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="14">
+                     <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="15">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="16">
+                     <key name="title" />
+                    <key name="content" />
+                    <key name="link" />  
+                </key>
+                <key name="17">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="18">
+                    <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+                <key name="19">
+                     <key name="title" />
+                    <key name="content" />
+                    <key name="link" /> 
+                </key>
+            </key>
+            <key name="slider_readmore" />
+            <key name="about_us_title" />
+            <key name="about_us_desc" />
+            <key name="about_us_readmore" />
+            <key name="about_us_readmore_link" />
+            <key name="about_us_ad_content" />
+            <key name="activities_title" />
+            <key name="activities_desc" />
+            <key name="activities">
+                <key name="0">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" /> 
+                </key>
+                <key name="1">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" /> 
+                </key>
+                <key name="2">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="3">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="4">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="5">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" /> 
+                </key>
+                <key name="6">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="7">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" /> 
+                </key>
+                <key name="8">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="9">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="10">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="11">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="12">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" /> 
+                </key>
+                <key name="13">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" /> 
+                </key>
+                <key name="14">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" /> 
+                </key>
+                <key name="15">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="16">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="17">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+                <key name="18">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" /> 
+                </key>
+                <key name="19">
+                    <key name="name" />
+                    <key name="desc" />
+                    <key name="url" />  
+                </key>
+            </key>            
+            <key name="popular_title" />
+            <key name="popular_desc" />
+            <key name="popular_view_all_label" />
+            <key name="popular_view_all_url" />
+            <key name="whyus_title" />
+            <key name="whyus_desc" />
+            <key name="why_us">
+                <key name="0">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="1">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="2">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="3">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="4">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="5">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />
+                </key>
+                <key name="6">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="7">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />
+                </key>
+                <key name="8">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="9">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="10">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="11">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="12">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="13">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="14">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="15">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="16">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="17">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />
+                </key>
+                <key name="18">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="19">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+            </key>            
+            <key name="feature_title" />
+            <key name="feature_desc" />
+            <key name="featured_readmore" />
+            <key name="featured_view_all" />
+            <key name="stat_counter_title" />
+            <key name="stat_counter_desc" />
+            <key name="counter">
+                <key name="0">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="1">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="2">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+                <key name="3">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="4">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+                <key name="5">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="6">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="7">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="8">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="9">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+                <key name="10">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+                <key name="11">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+                <key name="12">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="13">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="14">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="15">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="16">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="17">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="18">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="19">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+            </key>
+            <key name="deal_title" />
+            <key name="deal_desc" />
+            <key name="deal_readmore" />
+            <key name="deal_view_all_label" />
+            <key name="deal_view_all_url" />
+            <key name="testimonial_section_title" />
+            <key name="testimonial_section_subtitle" />
+            <key name="cta_title" />
+            <key name="cta_desc" />
+            <key name="cta_readmore" />
+            <key name="cta_link" />
+            <key name="blog_section_title" />
+            <key name="blog_section_subtitle" />
+            <key name="blog_view_all" />
+            <key name="client_section_title" />
+            <key name="about_intro_title" />
+            <key name="about_intro_content" />
+            <key name="about_ad_content" />
+            <key name="whyus_about_title" />
+            <key name="whyus_about_desc" />
+            <key name="whyus_about">
+                <key name="0">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="1">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="2">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="3">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="4">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="5">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />
+                </key>
+                <key name="6">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="7">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />
+                </key>
+                <key name="8">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="9">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="10">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="11">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="12">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="13">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="14">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="15">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="16">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+                <key name="17">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />
+                </key>
+                <key name="18">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" /> 
+                </key>
+                <key name="19">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />  
+                </key>
+            </key>
+            <key name="service_about_title" />
+            <key name="service_about_desc" />
+            <key name="services_about">
+                <key name="0">
+                    <key name="title" />
+                    <key name="content" />
+                </key>
+                <key name="1">
+                    <key name="title" />
+                    <key name="content" />
+                </key>
+                <key name="2">
+                    <key name="title" />
+                    <key name="content" /> 
+                </key>
+                <key name="3">
+                    <key name="title" />
+                    <key name="content" />
+                </key>
+                <key name="4">
+                    <key name="title" />
+                    <key name="content" />  
+                </key>
+                <key name="5">
+                    <key name="title" />
+                    <key name="content" />
+                </key>
+                <key name="6">
+                    <key name="title" />
+                    <key name="content" />  
+                </key>
+                <key name="7">
+                    <key name="title" />
+                    <key name="content" />
+                </key>
+                <key name="8">
+                    <key name="title" />
+                    <key name="content" />  
+                </key>
+                <key name="9">
+                    <key name="title" />
+                    <key name="content" />  
+                </key>
+                <key name="10">
+                    <key name="title" />
+                    <key name="content" />  
+                </key>
+                <key name="11">
+                    <key name="title" />
+                    <key name="content" />  
+                </key>
+                <key name="12">
+                    <key name="title" />
+                    <key name="content" />
+                </key>
+                <key name="13">
+                    <key name="title" />
+                    <key name="content" /> 
+                </key>
+                <key name="14">
+                    <key name="title" />
+                    <key name="content" />
+                </key>
+                <key name="15">
+                    <key name="title" />
+                    <key name="content" /> 
+                </key>
+                <key name="16">
+                    <key name="title" />
+                    <key name="content" />  
+                </key>
+                <key name="17">
+                    <key name="title" />
+                    <key name="description" />
+                    <key name="url" />
+                </key>
+                <key name="18">
+                    <key name="title" />
+                    <key name="content" />
+                </key>
+                <key name="19">
+                    <key name="title" />
+                    <key name="content" />
+                </key>
+            </key>
+            <key name="about_stat_counter_title" />
+            <key name="about_stat_counter_desc" />
+            <key name="about_counter">
+                <key name="0">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="1">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="2">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+                <key name="3">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="4">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+                <key name="5">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="6">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="7">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="8">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="9">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+                <key name="10">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+                <key name="11">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+                <key name="12">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="13">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="14">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="15">
+                    <key name="title" />
+                    <key name="number" /> 
+                </key>
+                <key name="16">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="17">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="18">
+                    <key name="title" />
+                    <key name="number" />
+                </key>
+                <key name="19">
+                    <key name="title" />
+                    <key name="number" />  
+                </key>
+            </key>
+            <key name="about_testimonial_section_title" />
+            <key name="about_testimonial_section_subtitle" />
+            <key name="about_team_section_title" />
+            <key name="about_team_section_subtitle" />
+            <key name="contact_phone_label" />
+            <key name="contact_phone" />
+            <key name="email_label" />
+            <key name="contact_email" />
+            <key name="location_label" />
+            <key name="contact_address" />
+            <key name="whatsapp_label" />
+            <key name="contact_whatsapp" />
+            <key name="skype_label" />
+            <key name="contact_skype" />
+            <key name="viber_label" />
+            <key name="contact_viber" />
+            <key name="contact_info_title" />
+            <key name="contact_info_content" />
+            <key name="contact_form" />
+            <key name="load_more_label" />
+            <key name="loading_label" />
+            <key name="nomore_post_label" />
+            <key name="breadcrumb_home_text" />
+            <key name="breadcrumb_separator" />
+            <key name="related_title" />
+            <key name="readmore" />
+            <key name="footer_copyright" />
+            <key name="related_trip_title" />
+            <key name="related_trip_readmore" />
+        </key>
+    </admin-texts>
+</wpml-config>

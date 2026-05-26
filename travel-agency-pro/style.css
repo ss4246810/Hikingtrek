@@ -1,0 +1,345 @@
+/*
+Theme Name: Nepal Alsace Treks & Expedition
+Theme URI: https://raratheme.com/wordpress-themes/travel-agency-pro/
+Author: Best Nepal
+Author URI: https://bestnepal.net/
+Description: Nepal trekking, high passes trekking, Wee operate lower and high pass trekking such as Sherpani Col,Tashilapsa,Upper dolpo,Ganjala pass,Three pass.Rinjo Chola,Minmola.Amphu Lapcha and many morepass adventure. trekking, tour packages, peak climbing, mountaineering, jungle safari tour, sightseeing, rafting in nepal, hotels in nepal
+Version: 2.0.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: travel-agency-pro
+Tags: blog, one-column, two-columns, right-sidebar, footer-widgets, custom-background, custom-header, custom-menu, custom-logo, featured-images, threaded-comments, portfolio, rtl-language-support, translation-ready, theme-options, holiday
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Travel Agency is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+.gh-act-search form .advanced-search-field {
+	position: relative;
+}
+.gh-act-search form .trip-duration strong {
+	display: block;
+	font-weight: 500;
+	color: #111;
+	padding-left: 25px;
+	position: relative;
+	width: 200px;
+	background-color: #fff;
+	height: 40px;
+}
+.gh-act-search form .trip-cost strong {
+	display: block;
+	font-weight: 500;
+	color: #111;
+	padding-left: 20px;
+	position: relative;
+	width: 200px;
+	background-color: #fff;
+	height: 40px;
+}
+.gh-act-search form .trip-duration strong:before {
+	position: absolute;
+	top: -1px;
+	left: 15px;
+	font-family: 'FontAwesome';
+	content: '\f073';
+	font-size: 15px;
+	color: #32b67a;
+}
+.gh-act-search form .trip-cost strong:before {
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	font-family: 'FontAwesome';
+	content: '\f155';
+	font-size: 15px;
+	color: #32b67a;
+}
+.gh-act-search form .trip-duration strong:after {
+	position: absolute;
+	top: 6px;
+	right: 0;
+	width: 20px;
+	height: 29px;
+	line-height: 29px;
+	background: #fff;
+	content: '\f078';
+	font-family: 'FontAwesome';
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	pointer-events: none;
+}
+.gh-act-search form .trip-cost strong:after {
+	position: absolute;
+	top: 6px;
+	right: 0;
+	width: 20px;
+	height: 29px;
+	line-height: 29px;
+	background: #fff;
+	content: '\f078';
+	font-family: 'FontAwesome';
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	pointer-events: none;
+}
+.gh-act-search form .search-dur, .gh-act-search form .search-price {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 100%;
+	background: #fff;
+	padding: 10px 25px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 0 0 5px 5px;
+	z-index: 1;
+}
+.gh-act-search form .search-dur .ui-widget.ui-widget-content, .gh-act-search form .search-price .ui-widget.ui-widget-content {
+	height: 2px;
+	background: #d3d3d3;
+	border-radius: 0;
+	margin: 0 0 10px;
+}
+.gh-act-search form .search-dur .ui-slider-horizontal .ui-slider-range, .gh-act-search form .search-price .ui-slider-horizontal .ui-slider-range {
+	background-color: #2882b3;
+}
+.gh-act-search form .search-dur .ui-slider-horizontal .ui-slider-range, .gh-act-search form .search-price .ui-slider-horizontal .ui-slider-range {
+	border-radius: 0;
+	background: #32b67a;
+	height: 2px;
+	top: -1px;
+}
+.gh-act-search form .search-dur .ui-slider-horizontal .ui-slider-handle, .gh-act-search form .search-price .ui-slider-horizontal .ui-slider-handle {
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-left: 6px solid #32b67a;
+	border-bottom: 8px solid transparent;
+	background: none;
+	border-right: 0;
+	border-radius: 0;
+	top: -8px;
+	margin-left: -1px;
+}
+.gh-act-search form .search-dur .ui-slider-horizontal .ui-slider-handle + .ui-slider-handle, .gh-act-search form .search-price .ui-slider-horizontal .ui-slider-handle + .ui-slider-handle {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+	margin-left: -5px;
+}
+.advanced-search-field.trip-duration strong, .advanced-search-field.trip-cost strong {
+	line-height: 39px;
+	padding-left: 35px !important;
+}
+.gh-act-search form .search-dur .duration-slider-value, .gh-act-search form .search-price .cost-slider-value {
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.gh-act-search form .search-dur .duration-slider-value .min-duration, .gh-act-search form .search-price .cost-slider-value .min-cost {
+	float: left;
+	font-size: 0.75em;
+	background: #eee;
+	border-radius: 20px;
+	padding: 0 10px;
+	line-height: 2em;
+}
+.gh-act-search form .search-dur .duration-slider-value .max-duration, .gh-act-search form .search-price .cost-slider-value .max-cost {
+	float: right;
+	font-size: 0.75em;
+	background: #eee;
+	border-radius: 20px;
+	padding: 0 10px;
+	line-height: 2em;
+}
+#primary .advanced-search-wrapper .sidebar {
+	margin-bottom: 50px;
+}
+#primary .advanced-search-wrapper .sidebar {
+	float: left;
+	width: 25%;
+	padding: 0 15px;
+	background: #fafafa;
+	border-radius: 5px;
+	padding: 20px;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field {
+	margin: 0 0 10px;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+#primary .advanced-search-wrapper .sidebar h3 {
+	font-family: Montserrat;
+}
+#primary .advanced-search-wrapper .sidebar ul {
+	font-size: 0.875em;
+}
+#primary .advanced-search-wrapper .sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#primary .advanced-search-wrapper .sidebar ul li {
+	margin: 0 0 10px;
+}
+#primary .advanced-search-wrapper .sidebar ul li .count {
+	font-size: 0.75em;
+	background: #eee;
+	border-radius: 20px;
+	padding: 0 10px;
+	line-height: 2em;
+}
+#primary .advanced-search-wrapper .sidebar ul li .count {
+	float: right;
+}
+#primary .advanced-search-wrapper .sidebar ul li:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .ui-widget.ui-widget-content {
+	height: 2px;
+	background: #d3d3d3;
+	border-radius: 0;
+	margin: 0 0 10px;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .ui-slider-horizontal .ui-slider-range {
+	border-radius: 0;
+	background: #32b67a;
+	height: 2px;
+	top: -1px;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .ui-slider-horizontal .ui-slider-handle {
+	border-left-color: #2882b3;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .ui-slider-horizontal .ui-slider-handle {
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-left: 6px solid #32b67a;
+	border-bottom: 8px solid transparent;
+	background: none;
+	border-right: 0;
+	border-radius: 0;
+	top: -8px;
+	margin-left: -1px;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .ui-slider-horizontal .ui-slider-handle + .ui-slider-handle {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+	margin-left: -5px;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .cost-slider-value, .bg-white #primary .advanced-search-wrapper .sidebar .advanced-search-field .duration-slider-value {
+	overflow: hidden;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .cost-slider-value .min-cost, .bg-white #primary .advanced-search-wrapper .sidebar .advanced-search-field .duration-slider-value .min-duration {
+	float: left;
+	font-size: 0.75em;
+	background: #eee;
+	border-radius: 20px;
+	padding: 0 10px;
+	line-height: 2em;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .cost-slider-value .max-cost, .bg-white #primary .advanced-search-wrapper .sidebar .advanced-search-field .duration-slider-value .max-duration {
+	float: right;
+	font-size: 0.75em;
+	background: #eee;
+	border-radius: 20px;
+	padding: 0 10px;
+	line-height: 2em;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .ui-widget.ui-widget-content {
+	height: 2px;
+	background: #d3d3d3;
+	border-radius: 0;
+	margin: 0 0 10px;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .cost-slider-value .min-cost, .bg-white #primary .advanced-search-wrapper .sidebar .advanced-search-field .duration-slider-value .min-duration, .min-duration {
+	float: left;
+	font-size: 0.75em;
+	background: #eee;
+	border-radius: 20px;
+	padding: 0 10px;
+	line-height: 2em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+#primary .advanced-search-wrapper .sidebar .advanced-search-field .cost-slider-value .max-cost, .bg-white #primary .advanced-search-wrapper .sidebar .advanced-search-field .duration-slider-value .max-duration, .max-duration {
+	float: right;
+	font-size: 0.75em;
+	background: #eee;
+	border-radius: 20px;
+	padding: 0 10px;
+	line-height: 2em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.col .img-holder {
+    position: relative;
+}
+span.price-holder {
+    position: absolute;
+    bottom: 0px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #01b7f2;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2px 10px;
+}
+div#loader {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 99;
+}
+.loader-wrapper {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    font-size: 70px;
+}
+.pckg-content {
+    padding: 13px !important;
+}

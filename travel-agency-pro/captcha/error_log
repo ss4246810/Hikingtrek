@@ -1,0 +1,1 @@
+[13-May-2026 22:00:53 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; CaptchaSecurityImages has a deprecated constructor in /home/hkgtrk/public_html/wp-content/themes/travel-agency-pro/captcha/captcha.php on line 26
